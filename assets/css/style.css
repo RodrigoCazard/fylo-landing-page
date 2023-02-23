@@ -1,0 +1,96 @@
+/* ------------------------------- Tipografia ------------------------------- */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* --------------------------------- Colores -------------------------------- */
+:root{
+    --very-Dark-Blue: hsl(243, 87%, 12%);
+    --desaturated-Blue: hsl(238, 22%, 44%);
+
+    --bright-Blue: hsl(224, 93%, 58%);
+    --moderate-Cyan: hsl(170, 45%, 43%);
+
+    --light-Grayish-Blue: hsl(240, 75%, 98%);
+    --light-Gray: hsl(0, 0%, 75%);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--very-Dark-Blue);
+
+    margin: 0 7px;
+}
+
+
+main{
+    margin-top: 100px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: var(--very-Dark-Blue);
+
+}
+p{
+    color: var(--very-Dark-Blue);
+
+}
+input{
+    border: 1px var(--desaturated-Blue) solid;
+    padding: 10px 20px;
+ 
+}
+input::placeholder{
+    opacity: 30%;
+}
+.bg{
+    background-color: #F8F8FE
+}
+.link_flyo{
+    border-bottom: 1px var(--moderate-Cyan) solid;
+    color: var(--moderate-Cyan);
+}
+
+.carta{
+    background-color: white;
+    
+}
+.carta_persona img{
+    width: 75px;
+}
+.carta_texto{
+    font-size: 15px;
+}
+.bg_blue{
+    background-color: var(--desaturated-Blue);
+}
+.bg_dark_blue{
+    background-color: var(--very-Dark-Blue);
+}
+.phone{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-image: url(/assets/images/icon-phone.svg);
+}
+.email{
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(/assets/images/icon-email.svg);
+}
+footer a{
+    color: white;
+}
+footer i:hover{
+    color: aqua;
+    cursor: pointer;
+}
+@media (max-width:418px){
+    .d-md-flex{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
